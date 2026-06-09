@@ -17,7 +17,7 @@ contract DeployYourToken is ScaffoldETHDeploy {
      * - If true: deploy Vendor and seed it with the token balance
      * - If false: send tokens to your frontend address (or deployer if unset)
      */
-    bool constant SEND_TOKENS_TO_VENDOR = false; // Don't switch until Checkpoint 2!
+    bool constant SEND_TOKENS_TO_VENDOR = true; // Don't switch until Checkpoint 2!
 
     function run() external ScaffoldEthDeployerRunner {
         YourToken yourToken = new YourToken();

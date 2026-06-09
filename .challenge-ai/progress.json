@@ -1,0 +1,12 @@
+{
+  "challenge": "Token Vendor",
+  "framework": "foundry",
+  "startedAt": "2026-05-30",
+  "currentCheckpoint": "complete",
+  "checkpoints": [
+    { "id": "erc20-token", "title": "ERC-20 Token", "status": "completed", "method": "coded", "completedAt": "2026-05-31T00:00:00Z", "currentQuestion": 0 },
+    { "id": "buy-tokens", "title": "Vendor Buy Tokens", "status": "completed", "method": "coded", "completedAt": "2026-06-01T00:00:00Z", "currentQuestion": 0 },
+    { "id": "ownable-withdraw", "title": "Ownable & Withdraw", "status": "completed", "method": "coded", "completedAt": "2026-06-08T00:00:00Z", "currentQuestion": 0 },
+    { "id": "sell-tokens", "title": "Vendor Buyback", "status": "completed", "method": "coded", "completedAt": "2026-06-08T00:00:00Z", "currentQuestion": 0 }
+  ]
+}
